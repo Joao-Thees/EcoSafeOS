@@ -16,9 +16,11 @@ def cadastrar_centro():
     centro_de_reciclagem[id_centro] = {"nome": nome_unidade,
                                        "residuos": [pesos_residuos_processados],
                                        "saldo_creditos": credito_de_carbono} #adicionando id ao dicionario
-    
-    
+
+
 
 cadastrar_centro() # chamando func de cadastro
 relatorio_formatado() # chamando modulo de formatação
+
+
 

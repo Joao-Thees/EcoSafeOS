@@ -1,4 +1,5 @@
-from cadastro import cadastro_reciclagem
+from cadastro import cadastrar_centro
+from adicionar_carga import adicionar_carga
 
 def menu():
     print('''
@@ -46,6 +47,7 @@ def menu():
         • 1 - Cadastrar Centro de Reciclagem
         • 2 - Registrar Processamento de Resíduos
         • 3 - Gerar Relatório Ambiental
+        • 4 - Adicionar Carga a Centro Existente
         • 0 - Sair do Sistema ''')
     
     opcao = int(input('Digite aqui sua opção: '))
@@ -53,8 +55,10 @@ def menu():
     match opcao:
         
         case 1:
-            cadastro_reciclagem()
-        
+            cadastrar_centro()
 
-    
+        case 4:
+            adicionar_carga()
+
+
 menu()
