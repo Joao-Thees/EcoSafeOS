@@ -1,4 +1,6 @@
 from registro import centro_de_reciclagem
+from relatorio import relatorio_formatado
+
 def cadastrar_centro():
     
     id_centro = input('Digite o ID do seu centro de reciclagem. ex: "C01": ')
@@ -17,5 +19,6 @@ def cadastrar_centro():
     
     
 
-cadastrar_centro()
-print(centro_de_reciclagem)
+cadastrar_centro() # chamando func de cadastro
+relatorio_formatado() # chamando modulo de formatação
+
