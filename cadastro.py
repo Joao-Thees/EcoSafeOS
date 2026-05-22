@@ -19,8 +19,9 @@ def cadastrar_centro():
 
 
 
-cadastrar_centro() # chamando func de cadastro
-relatorio_formatado() # chamando modulo de formatação
+if __name__ == "__main__":
+    cadastrar_centro()
+    relatorio_formatado()
 
 
 
