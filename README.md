@@ -81,7 +81,7 @@ ecosafe-os/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/ecosafe-os.git
+git clone https://github.com/Joao-Thees/EcoSafeOS.git
 
 # Acesse o diretório
 cd EcoSafeOS
